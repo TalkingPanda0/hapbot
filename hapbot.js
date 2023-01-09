@@ -29,7 +29,7 @@
 		{
 			if(!siid)
 			{
-				siid = setInterval(setTitle, 3000);
+				siid = setInterval(setTitle, 30000);
 				$.say("Hapbot started");
 			} else
 			{
